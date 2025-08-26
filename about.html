@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>About • GuardixLink</title>
+<link rel="stylesheet" href="styles.css"/>
+<meta name="description" content="[REPLACE] SEO description for About page"/>
+</head><body>
+
+    <div class="topbar">
+      <div class="container nav">
+        <div class="brand">
+          <div class="brand-logo">G</div>
+          <div>
+            <b>GuardixLink</b>
+            <small>CONNECT. PROTECT. CONTROL.</small>
+          </div>
+        </div>
+        <div class="menu">
+          <a  href="index.html">Home</a>
+          <a class="active" href="about.html">About</a>
+          <a  href="features.html">Features</a>
+          <a  href="faq.html">FAQ</a>
+          <a  href="contact.html">Contact</a>
+          <a class="cta" href="contact.html#quote">Get a Quote</a>
+        </div>
+      </div>
+    </div>
+
+<section class="hero">
+  <div class="container hero-inner reveal">
+    <div>
+      <div class="badge">OUR STORY</div>
+      <h1>About GuardixLink</h1>
+      <p>[REPLACE] Founder message and mission.</p>
+    </div>
+    <div class="hero-art"><img src="assets/gxl_1.jpg" alt="About artwork" style="width:100%"/></div>
+  </div>
+</section>
+<section class="section reveal">
+  <div class="container grid grid-3">
+    <div class="card reveal"><h3>Principles</h3><p>[REPLACE] Non‑blocking, memory‑safe, resilient.</p></div>
+    <div class="card reveal"><h3>Reliability</h3><p>[REPLACE] Watchdogs, Wi‑Fi self‑heal, NTP‑aware messaging.</p></div>
+    <div class="card reveal"><h3>Privacy</h3><p>[REPLACE] Least‑privilege roles, local processing.</p></div>
+  </div>
+</section>
+
+<footer class="footer section">
+  <div class="container grid grid-3">
+    <div>
+      <div class="brand">
+        <div class="brand-logo">G</div>
+        <div><b>GuardixLink</b><small>CONNECT. PROTECT. CONTROL.</small></div>
+      </div>
+      <p class="notice" style="margin-top:8px">[REPLACE] Short footer blurb for SEO with key phrases about gate control, tamper detection, and Telegram integration in South Africa.</p>
+    </div>
+    <div>
+      <h3>Quick Links</h3>
+      <p><a href="features.html">Features</a> · <a href="faq.html">FAQ</a> · <a href="contact.html">Contact</a></p>
+      <p><a href="about.html">About</a> · <a href="index.html#demos">Demos</a></p>
+    </div>
+    <div>
+      <h3>Contact</h3>
+      <p>Pretoria, South Africa</p>
+      <p>+27 76 771 9889 · <a href="mailto:info@guardix.co.za">info@guardix.co.za</a></p>
+      <p><a href="https://www.guardix.co.za" target="_blank" rel="noopener">www.guardix.co.za</a></p>
+    </div>
+  </div>
+  <div class="container" style="padding-top:8px;border-top:1px solid rgba(255,255,255,.15);margin-top:20px">
+    <small>© 2025 GuardixLink. All rights reserved.</small>
+  </div>
+</footer>
+
+<script>
+(function(){
+  var els=[].slice.call(document.querySelectorAll('.reveal'));
+  if(!('IntersectionObserver'in window)){ els.forEach(function(e){e.classList.add('visible')}); return; }
+  var io=new IntersectionObserver(function(entries){
+    entries.forEach(function(entry){ if(entry.isIntersecting){ entry.target.classList.add('visible'); io.unobserve(entry.target); } });
+  },{threshold:.12});
+  els.forEach(function(e){ io.observe(e); });
+})();
+</script>
+
+</body></html>

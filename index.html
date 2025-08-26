@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Index • GuardixLink</title>
+<link rel="stylesheet" href="styles.css"/>
+<meta name="description" content="[REPLACE] SEO description for Index page"/>
+</head><body>
+
+    <div class="topbar">
+      <div class="container nav">
+        <div class="brand">
+          <div class="brand-logo">G</div>
+          <div>
+            <b>GuardixLink</b>
+            <small>CONNECT. PROTECT. CONTROL.</small>
+          </div>
+        </div>
+        <div class="menu">
+          <a class="active" href="index.html">Home</a>
+          <a  href="about.html">About</a>
+          <a  href="features.html">Features</a>
+          <a  href="faq.html">FAQ</a>
+          <a  href="contact.html">Contact</a>
+          <a class="cta" href="contact.html#quote">Get a Quote</a>
+        </div>
+      </div>
+    </div>
+
+<section class="hero">
+  <div class="container hero-inner reveal">
+    <div>
+      <div class="badge">GUARDIXBOT READY</div>
+      <h1>Secure Gate Control via Telegram</h1>
+      <p>Open and monitor gates, receive tamper alerts, and stay in control 24/7 — all through a fast, hardened ESP32 controller.</p>
+      <div class="hero-cta">
+        <a class="btn primary" href="features.html">Explore Features</a>
+        <a class="btn alt" href="contact.html">Talk to Us</a>
+      </div>
+      <div class="stat" style="margin-top:18px">
+        <b>v2.x</b><span>Hardened firmware with role-based access & 2FA</span>
+      </div>
+    </div>
+    <div class="hero-art"><img src="assets/gxl_1.jpg" alt="GuardixLink hero" style="display:block;width:100%;height:auto"/></div>
+  </div>
+</section>
+<section class="section reveal" id="demos">
+  <div class="container">
+    <h2>What Makes GuardixLink Different</h2>
+    <p class="kicker">Built for reliability. Designed for simplicity.</p>
+    <div class="grid grid-3">
+      <div class="card reveal"><div class="icon">🛡️</div><h3>Security‑First</h3><p>[REPLACE] Role‑based access, 2FA, and tamper‑aware logic.</p></div>
+      <div class="card reveal"><div class="icon">⚡</div><h3>Responsive & Non‑Blocking</h3><p>[REPLACE] Millis‑based scheduling for instant command handling.</p></div>
+      <div class="card reveal"><div class="icon">📶</div><h3>Wi‑Fi Self‑Heal</h3><p>[REPLACE] Reconnect with exponential backoff.</p></div>
+    </div>
+  </div>
+</section>
+<section class="section alt reveal">
+  <div class="container grid grid-2">
+    <div>
+      <h2>Trusted Notifications</h2>
+      <p>[REPLACE] OPEN/CLOSED updates, reminders, and alerts with deduplication.</p>
+      <p class="notice">Placeholder: customer quote or value proposition.</p>
+    </div>
+    <div class="card reveal"><img src="assets/gxl_1.jpg" alt="Bot card" style="width:100%;border-radius:10px"/></div>
+  </div>
+</section>
+
+<footer class="footer section">
+  <div class="container grid grid-3">
+    <div>
+      <div class="brand">
+        <div class="brand-logo">G</div>
+        <div><b>GuardixLink</b><small>CONNECT. PROTECT. CONTROL.</small></div>
+      </div>
+      <p class="notice" style="margin-top:8px">[REPLACE] Short footer blurb for SEO with key phrases about gate control, tamper detection, and Telegram integration in South Africa.</p>
+    </div>
+    <div>
+      <h3>Quick Links</h3>
+      <p><a href="features.html">Features</a> · <a href="faq.html">FAQ</a> · <a href="contact.html">Contact</a></p>
+      <p><a href="about.html">About</a> · <a href="index.html#demos">Demos</a></p>
+    </div>
+    <div>
+      <h3>Contact</h3>
+      <p>Pretoria, South Africa</p>
+      <p>+27 76 771 9889 · <a href="mailto:info@guardix.co.za">info@guardix.co.za</a></p>
+      <p><a href="https://www.guardix.co.za" target="_blank" rel="noopener">www.guardix.co.za</a></p>
+    </div>
+  </div>
+  <div class="container" style="padding-top:8px;border-top:1px solid rgba(255,255,255,.15);margin-top:20px">
+    <small>© 2025 GuardixLink. All rights reserved.</small>
+  </div>
+</footer>
+
+<script>
+(function(){
+  var els=[].slice.call(document.querySelectorAll('.reveal'));
+  if(!('IntersectionObserver'in window)){ els.forEach(function(e){e.classList.add('visible')}); return; }
+  var io=new IntersectionObserver(function(entries){
+    entries.forEach(function(entry){ if(entry.isIntersecting){ entry.target.classList.add('visible'); io.unobserve(entry.target); } });
+  },{threshold:.12});
+  els.forEach(function(e){ io.observe(e); });
+})();
+</script>
+
+</body></html>

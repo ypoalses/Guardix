@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" width="1200" height="600">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#0f5664"/><stop offset="100%" stop-color="#0b2e39"/></linearGradient>
+  <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#f6c453"/><stop offset="100%" stop-color="#e3a72f"/></linearGradient></defs>
+  <rect fill="url(#bg)" x="0" y="0" width="1200" height="600"/>
+  <g opacity="0.15"><polygon points="0,100 250,0 500,100 250,200" fill="#ffffff"/>
+  <polygon points="700,400 950,300 1200,400 950,500" fill="#ffffff"/>
+  <circle cx="1050" cy="120" r="60" fill="url(#accent)"/>
+  <rect x="80" y="380" width="200" height="200" rx="20" fill="url(#accent)"/></g>
+  <text x="60" y="120" fill="#ffffff" font-family="Inter,Segoe UI,Arial" font-size="64" font-weight="700">GuardixLink</text>
+  <text x="60" y="180" fill="#f6c453" font-family="Inter,Segoe UI,Arial" font-size="28" font-weight="600">CONNECT. PROTECT. CONTROL.</text>
+  <text x="60" y="260" fill="#e8f2f4" font-family="Inter,Segoe UI,Arial" font-size="40" font-weight="700">[ Placeholder Hero Image ]</text>
+  <text x="60" y="310" fill="#e8f2f4" font-family="Inter,Segoe UI,Arial" font-size="20">Replace this SVG with your real artwork later.</text>
+</svg>
