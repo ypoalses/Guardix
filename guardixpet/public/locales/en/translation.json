@@ -1,0 +1,91 @@
+{
+  "common": {
+    "appName": "GuardixPet",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "add": "Add",
+    "back": "Back",
+    "next": "Next",
+    "confirm": "Confirm",
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "search": "Search",
+    "filter": "Filter",
+    "settings": "Settings",
+    "logout": "Logout",
+    "offline": "You are offline",
+    "online": "Back online"
+  },
+  "auth": {
+    "login": "Login",
+    "signup": "Sign Up",
+    "email": "Email",
+    "password": "Password",
+    "confirmPassword": "Confirm Password",
+    "forgotPassword": "Forgot Password?",
+    "rememberMe": "Remember me",
+    "loginWithGoogle": "Login with Google",
+    "loginWithFacebook": "Login with Facebook",
+    "twoFactorCode": "Two-Factor Code",
+    "enterCode": "Enter the 6-digit code from your authenticator app"
+  },
+  "pets": {
+    "myPets": "My Pets",
+    "addPet": "Add Pet",
+    "editPet": "Edit Pet",
+    "petName": "Pet Name",
+    "petType": "Pet Type",
+    "breed": "Breed",
+    "age": "Age",
+    "color": "Color",
+    "description": "Description",
+    "uploadPhoto": "Upload Photo",
+    "clonePet": "Clone Pet Profile",
+    "noPets": "No pets found. Add your first pet!"
+  },
+  "tags": {
+    "myTags": "My Tags",
+    "pendingTags": "Pending Tags",
+    "tagId": "Tag ID",
+    "assignTag": "Assign Tag",
+    "activateTag": "Activate Tag",
+    "status": "Status",
+    "active": "Active",
+    "pending": "Pending",
+    "inactive": "Inactive"
+  },
+  "scans": {
+    "scanHistory": "Scan History",
+    "scannedAt": "Scanned At",
+    "location": "Location",
+    "viewOnMap": "View on Map",
+    "noScans": "No scans yet"
+  },
+  "notifications": {
+    "notifications": "Notifications",
+    "markAllRead": "Mark all as read",
+    "noNotifications": "No notifications",
+    "petScanned": "Your pet {{petName}} was scanned",
+    "tagActivated": "Tag {{tagId}} has been activated"
+  },
+  "settings": {
+    "profile": "Profile",
+    "language": "Language",
+    "theme": "Theme",
+    "light": "Light",
+    "dark": "Dark",
+    "system": "System",
+    "notifications": "Notifications",
+    "privacy": "Privacy",
+    "about": "About"
+  },
+  "feedback": {
+    "title": "Send Feedback",
+    "message": "Your message",
+    "submit": "Submit Feedback",
+    "thankYou": "Thank you for your feedback!"
+  }
+}

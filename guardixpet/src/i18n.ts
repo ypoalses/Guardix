@@ -1,0 +1,25 @@
+import i18n from 'i18next';
+import { initReactI18next } from 'react-i18next';
+
+i18n
+  .use(initReactI18next)
+  .init({
+    resources: {
+      en: {
+        translation: require('../public/locales/en/translation.json'),
+      },
+      af: {
+        translation: require('../public/locales/af/translation.json'),
+      },
+      zu: {
+        translation: require('../public/locales/zu/translation.json'),
+      },
+    },
+    lng: 'en',
+    fallbackLng: 'en',
+    interpolation: {
+      escapeValue: false,
+    },
+  });
+
+export default i18n;

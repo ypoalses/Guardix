@@ -1,0 +1,91 @@
+{
+  "common": {
+    "appName": "GuardixPet",
+    "save": "Stoor",
+    "cancel": "Kanselleer",
+    "delete": "Verwyder",
+    "edit": "Redigeer",
+    "add": "Voeg by",
+    "back": "Terug",
+    "next": "Volgende",
+    "confirm": "Bevestig",
+    "loading": "Laai...",
+    "error": "Fout",
+    "success": "Sukses",
+    "search": "Soek",
+    "filter": "Filter",
+    "settings": "Instellings",
+    "logout": "Teken uit",
+    "offline": "Jy is vanlyn",
+    "online": "Weer aanlyn"
+  },
+  "auth": {
+    "login": "Teken in",
+    "signup": "Registreer",
+    "email": "E-pos",
+    "password": "Wagwoord",
+    "confirmPassword": "Bevestig Wagwoord",
+    "forgotPassword": "Wagwoord vergeet?",
+    "rememberMe": "Onthou my",
+    "loginWithGoogle": "Teken in met Google",
+    "loginWithFacebook": "Teken in met Facebook",
+    "twoFactorCode": "Twee-faktor Kode",
+    "enterCode": "Voer die 6-syfer kode van jou verifieerder app in"
+  },
+  "pets": {
+    "myPets": "My Troeteldiere",
+    "addPet": "Voeg Troeteldier by",
+    "editPet": "Redigeer Troeteldier",
+    "petName": "Troeteldier Naam",
+    "petType": "Troeteldier Tipe",
+    "breed": "Ras",
+    "age": "Ouderdom",
+    "color": "Kleur",
+    "description": "Beskrywing",
+    "uploadPhoto": "Laai Foto op",
+    "clonePet": "Kloon Troeteldier Profiel",
+    "noPets": "Geen troeteldiere gevind nie. Voeg jou eerste troeteldier by!"
+  },
+  "tags": {
+    "myTags": "My Etikette",
+    "pendingTags": "Hangende Etikette",
+    "tagId": "Etiket ID",
+    "assignTag": "Ken Etiket toe",
+    "activateTag": "Aktiveer Etiket",
+    "status": "Status",
+    "active": "Aktief",
+    "pending": "Hangend",
+    "inactive": "Onaktief"
+  },
+  "scans": {
+    "scanHistory": "Skandeer Geskiedenis",
+    "scannedAt": "Geskandeer op",
+    "location": "Ligging",
+    "viewOnMap": "Bekyk op Kaart",
+    "noScans": "Nog geen skanderings nie"
+  },
+  "notifications": {
+    "notifications": "Kennisgewings",
+    "markAllRead": "Merk alles as gelees",
+    "noNotifications": "Geen kennisgewings",
+    "petScanned": "Jou troeteldier {{petName}} is geskandeer",
+    "tagActivated": "Etiket {{tagId}} is geaktiveer"
+  },
+  "settings": {
+    "profile": "Profiel",
+    "language": "Taal",
+    "theme": "Tema",
+    "light": "Lig",
+    "dark": "Donker",
+    "system": "Stelsel",
+    "notifications": "Kennisgewings",
+    "privacy": "Privaatheid",
+    "about": "Oor"
+  },
+  "feedback": {
+    "title": "Stuur Terugvoer",
+    "message": "Jou boodskap",
+    "submit": "Dien Terugvoer in",
+    "thankYou": "Dankie vir jou terugvoer!"
+  }
+}

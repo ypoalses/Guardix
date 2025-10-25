@@ -1,0 +1,91 @@
+{
+  "common": {
+    "appName": "GuardixPet",
+    "save": "Gcina",
+    "cancel": "Khansela",
+    "delete": "Susa",
+    "edit": "Hlela",
+    "add": "Engeza",
+    "back": "Emuva",
+    "next": "Okulandelayo",
+    "confirm": "Qinisekisa",
+    "loading": "Iyalayisha...",
+    "error": "Iphutha",
+    "success": "Impumelelo",
+    "search": "Sesha",
+    "filter": "Hlunga",
+    "settings": "Izilungiselelo",
+    "logout": "Phuma",
+    "offline": "Awuxhumekile",
+    "online": "Usubuya ku-inthanethi"
+  },
+  "auth": {
+    "login": "Ngena",
+    "signup": "Bhalisa",
+    "email": "I-imeyili",
+    "password": "Iphasiwedi",
+    "confirmPassword": "Qinisekisa Iphasiwedi",
+    "forgotPassword": "Ukhohlwe iphasiwedi?",
+    "rememberMe": "Ngikhumbule",
+    "loginWithGoogle": "Ngena nge-Google",
+    "loginWithFacebook": "Ngena nge-Facebook",
+    "twoFactorCode": "Ikhodi Yezinto Ezimbili",
+    "enterCode": "Faka ikhodi yamagama ayisithupha kusukela kuhlelo lokusebenza lakho lokuqinisekisa"
+  },
+  "pets": {
+    "myPets": "Izilwane Zami",
+    "addPet": "Engeza Isilwane",
+    "editPet": "Hlela Isilwane",
+    "petName": "Igama Lesilwane",
+    "petType": "Uhlobo Lwesilwane",
+    "breed": "Uhlobo",
+    "age": "Ubudala",
+    "color": "Umbala",
+    "description": "Incazelo",
+    "uploadPhoto": "Layisha Isithombe",
+    "clonePet": "Kopisha Iphrofayela Yesilwane",
+    "noPets": "Azikho izilwane ezitholiwe. Engeza isilwane sakho sokuqala!"
+  },
+  "tags": {
+    "myTags": "Amathegi Ami",
+    "pendingTags": "Amathegi Alindile",
+    "tagId": "I-ID Yethegi",
+    "assignTag": "Nikeza Ithegi",
+    "activateTag": "Yenza Ithegi Isebenze",
+    "status": "Isimo",
+    "active": "Iyasebenza",
+    "pending": "Ilindile",
+    "inactive": "Ayisebenzi"
+  },
+  "scans": {
+    "scanHistory": "Umlando Wokuskena",
+    "scannedAt": "Kuskenwe Ngo",
+    "location": "Indawo",
+    "viewOnMap": "Buka Kumephu",
+    "noScans": "Azikho izikene okwamanje"
+  },
+  "notifications": {
+    "notifications": "Izaziso",
+    "markAllRead": "Maka konke njengokufundiwe",
+    "noNotifications": "Azikho izaziso",
+    "petScanned": "Isilwane sakho u-{{petName}} siskeniwe",
+    "tagActivated": "Ithegi {{tagId}} yenziwe yasebenza"
+  },
+  "settings": {
+    "profile": "Iphrofayela",
+    "language": "Ulimi",
+    "theme": "Itimu",
+    "light": "Okukhanyayo",
+    "dark": "Okumnyama",
+    "system": "Uhlelo",
+    "notifications": "Izaziso",
+    "privacy": "Ubumfihlo",
+    "about": "Mayelana"
+  },
+  "feedback": {
+    "title": "Thumela Impendulo",
+    "message": "Umlayezo wakho",
+    "submit": "Thumela Impendulo",
+    "thankYou": "Siyabonga ngempendulo yakho!"
+  }
+}
